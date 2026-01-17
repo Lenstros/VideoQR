@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video QR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: black;
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      height: 100vh;           /* Full viewport height */
+    }
+    video {
+      max-width: 100%; /* Video won’t go beyond screen width */
+      max-height: 100%; /* Video won’t go beyond screen height */
+    }
+  </style>
+</head>
+<body>
+  <video autoplay unmuted controls playsinline>
+    <source src="AstroVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
